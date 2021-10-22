@@ -1,0 +1,105 @@
+html, body { /*Importante*/
+    height: 100%;
+    font-family: sans-serif;
+    background-color: rgb(4, 91, 112);
+    color: white;
+}
+
+* { /*Importante*/
+    margin: 0;
+    padding: 0;
+}
+
+.widget{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 4rem;
+}
+
+.ajedrez-body{
+    background-color: rgb(141, 85, 33);
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+.fila1{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.fila2{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.fila3{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.fila4{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.fila5{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.fila6{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.fila7{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.fila8{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.casilla1{
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    background-color: sandybrown;
+    border: 2px solid black
+}
+
+.casilla2{
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    background-color: rgb(128, 60, 2);
+    border: 2px solid black
+}
+
+.casilla1:hover{
+    background-color: transparent;
+}
+
+.casilla2:hover{
+    background-color: transparent;
+}
+
+img{
+    cursor: grab;
+}
+
+.active{
+    border: 2px solid green;
+}

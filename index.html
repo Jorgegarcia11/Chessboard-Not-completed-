@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ajedrez game</title>
+</head>
+
+<body>
+    <article class="widget">
+        <section class="ajedrez-body">
+            <div class="fila1">
+                <div class="casilla1">
+                    <img src="Black pieces/Torre.png" alt="black-tower" class="piece">
+                </div>
+                <div class="casilla2">
+                    <img src="Black pieces/Caballo.png" alt="black-horse" class="piece">
+                </div>
+                <div class="casilla1">
+                    <img src="Black pieces/Alfil.png" alt="black-alfil" class="piece">
+                </div>
+                <div class="casilla2">
+                    <img src="Black pieces/Reina.png" alt="black-queen" class="piece">
+                </div>
+                <div class="casilla1">
+                    <img src="Black pieces/Rey.png" alt="black-king" class="piece">
+                </div>
+                <div class="casilla2">
+                    <img src="Black pieces/Alfil.png" alt="black-alfil" class="piece">
+                </div>
+                <div class="casilla1">
+                    <img src="Black pieces/Caballo.png" alt="black-horse" class="piece">
+                </div>
+                <div class="casilla2">
+                    <img src="Black pieces/Torre.png" alt="black-tower" class="piece">
+                </div>
+            </div>
+            <div class="fila2">
+                <div class="casilla2">
+                    <img src="Black pieces/Peon.png" alt="black-pawn" class="piece">
+                </div>
+                <div class="casilla1">
+                    <img src="Black pieces/Peon.png" alt="black-pawn" class="piece">
+                </div>
+                <div class="casilla2">
+                    <img src="Black pieces/Peon.png" alt="black-pawn" class="piece">
+                </div>
+                <div class="casilla1">
+                    <img src="Black pieces/Peon.png" alt="black-pawn" class="piece">
+                </div>
+                <div class="casilla2">
+                    <img src="Black pieces/Peon.png" alt="black-pawn" class="piece">
+                </div>
+                <div class="casilla1">
+                    <img src="Black pieces/Peon.png" alt="black-pawn" class="piece">
+                </div>
+                <div class="casilla2">
+                    <img src="Black pieces/Peon.png" alt="black-pawn" class="piece">
+                </div>
+                <div class="casilla1">
+                    <img src="Black pieces/Peon.png" alt="black-pawn" class="piece">
+                </div>
+            </div>
+            <div class="fila3">
+                <div class="casilla1"></div>
+                <div class="casilla2"></div>
+                <div class="casilla1"></div>
+                <div class="casilla2"></div>
+                <div class="casilla1"></div>
+                <div class="casilla2"></div>
+                <div class="casilla1"></div>
+                <div class="casilla2"></div>
+            </div>
+            <div class="fila4">
+                <div class="casilla2"></div>
+                <div class="casilla1"></div>
+                <div class="casilla2"></div>
+                <div class="casilla1"></div>
+                <div class="casilla2"></div>
+                <div class="casilla1"></div>
+                <div class="casilla2"></div>
+                <div class="casilla1"></div>
+            </div>
+            <div class="fila5" id="fila5">
+                <div class="casilla1" id="a4"></div>
+                <div class="casilla2" id="b4"></div>
+                <div class="casilla1" id="c4"></div>
+                <div class="casilla2" id="d4"></div>
+                <div class="casilla1" id="e4"></div>
+                <div class="casilla2" id="f4"></div>
+                <div class="casilla1" id="g4"></div>
+                <div class="casilla2" id="h4"></div>
+            </div>
+            <div class="fila6" id="fila6">
+                <div class="casilla2" id="a3"></div>
+                <div class="casilla1" id="b3"></div>
+                <div class="casilla2" id="c3"></div>
+                <div class="casilla1" id="d3"></div>
+                <div class="casilla2" id="e3"></div>
+                <div class="casilla1" id="f3"></div>
+                <div class="casilla2" id="g3"></div>
+                <div class="casilla1" id="h3"></div>
+            </div>
+            <div class="fila7" id="fila7">
+                <div class="casilla1" id="a2">
+                    <img src="White pieces/Peon.png" alt="white-pawn" class="piece" id="piece1" draggable="true">
+                </div>
+                <div class="casilla2" id="b2">
+                    <img src="White pieces/Peon.png" alt="white-pawn2" class="piece" id="piece2" draggable="true">
+                </div>
+                <div class="casilla1" id="c2">
+                    <img src="White pieces/Peon.png" alt="white-pawn3" class="piece" id="piece3" draggable="true">
+                </div>
+                <div class="casilla2" id="d2">
+                    <img src="White pieces/Peon.png" alt="white-pawn" class="piece" id="piece4" draggable="true">
+                </div>
+                <div class="casilla1" id="e2">
+                    <img src="White pieces/Peon.png" alt="white-pawn" class="piece" id="piece5" draggable="true">
+                </div>
+                <div class="casilla2" id="f2">
+                    <img src="White pieces/Peon.png" alt="white-pawn" class="piece" id="piece6" draggable="true">
+                </div>
+                <div class="casilla1" id="g2">
+                    <img src="White pieces/Peon.png" alt="white-pawn" class="piece" id="piece7" draggable="true">
+                </div>
+                <div class="casilla2" id="h2">
+                    <img src="White pieces/Peon.png" alt="white-pawn" class="piece" id="piece8" draggable="true">
+                </div>
+            </div>
+            <div class="fila8">
+                <div class="casilla2">
+                    <img src="White pieces/Torre.png" alt="white-tower" class="piece" id="piece9" draggable="true">
+                </div>
+                <div class="casilla1">
+                    <img src="White pieces/Caballo.png" alt="white-horse" class="piece" id="piece10" draggable="true"> 
+                </div>
+                <div class="casilla2">
+                    <img src="White pieces/Alfil.png" alt="white-alfil" class="piece" id="piece11" draggable="true">
+                </div>
+                <div class="casilla1">
+                    <img src="White pieces/Reina.png" alt="white-queen" class="piece" id="piece12" draggable="true">
+                </div>
+                <div class="casilla2">
+                    <img src="White pieces/Rey.png" alt="white-king" class="piece" id="piece13" draggable="true">
+                </div>
+                <div class="casilla1">
+                    <img src="White pieces/Alfil.png" alt="white-alfil" class="piece" id="piece14" draggable="true">
+                </div>
+                <div class="casilla2">
+                    <img src="White pieces/Caballo.png" alt="white-horse" class="piece" id="piece15" draggable="true">
+                </div>
+                <div class="casilla1">
+                    <img src="White pieces/Torre.png" alt="white-tower" class="piece" id="piece16" draggable="true">
+                </div>
+            </div>
+        </section>
+    </article>
+    <script src="script.js"></script>
+</body>
+
+</html>
